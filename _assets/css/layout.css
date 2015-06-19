@@ -1,0 +1,283 @@
+@charset "UTF-8";
+
+body {
+	color: #79473e;
+	background-image: url(/_assets/img/background.jpg);
+	background-repeat: repeat-x;
+	margin: 0;
+	padding:0;
+}
+
+.container {	
+	background-repeat: repeat-x;
+}
+
+a:link, a:visited {
+	color: #bb7209;
+}
+
+#header, #header h1 {
+	margin: 0;
+	padding: 0;
+}
+
+#header h1 a {
+	background-image: url(/_assets/img/microwavepopcorn.gif);
+	background-repeat: no-repeat;
+	background-position: 0 20px;
+	display: block;
+	text-indent: -9999em;
+	width: 904px;
+	height: 100px;
+	margin: 0 auto;
+	padding: 20px 0 0 0;
+}
+
+#header .tagline a {
+	background-image: url(/_assets/img/header.gif);
+	display: block;
+	text-indent: -9999em;
+	width: 918px;
+	height: 360px;
+	margin: 20px auto;
+}
+
+#site-nav {
+	height: 75px;
+	background-color: white;
+	}
+	#site-nav ul {
+		list-style-type: none;
+		margin-left: 40px;
+	}
+	#site-nav li {
+		float: left;
+	}
+	#site-nav #certifylink a {
+		text-indent: -9999em;
+		width: 203px;
+		height: 66px;
+		display: block;
+	}
+	#site-nav #badsmelllink a {
+		text-indent: -9999em;
+		width: 374px;
+		height: 66px;
+		display: block;
+	}
+	#site-nav #aboutlink a {
+		text-indent: -9999em;
+		width: 148px;
+		height: 66px;
+		display: block;
+	}
+	#site-nav #contactlink a {
+		text-indent: -9999em;
+		width: 162px;
+		height: 66px;
+		display: block;
+	}	
+	#site-nav #certifylink a:link, #site-nav #certifylink a:visited {
+		background-image: url(/_assets/img/certifications.gif);
+	}
+	#site-nav #badsmelllink a:link, #site-nav #badsmelllink a:visited {
+		background-image: url(/_assets/img/badsmell.gif);
+	}
+	#site-nav #aboutlink a:link, #site-nav #aboutlink a:visited {
+		background-image: url(/_assets/img/about.gif);
+	}
+	#site-nav #contactlink a:link, #site-nav #contactlink a:visited {
+		background-image: url(/_assets/img/contact.gif);
+	}
+	#site-nav #certifylink a:link:hover, #site-nav #certifylink a:visited:hover {
+		background-image: url(/_assets/img/certifications_on.gif);
+	}
+	#site-nav #badsmelllink a:link:hover, #site-nav #badsmelllink a:visited:hover {
+		background-image: url(/_assets/img/badsmell_on.gif);
+	}
+	#site-nav #aboutlink a:link:hover, #site-nav #aboutlink a:visited:hover {
+		background-image: url(/_assets/img/about_on.gif);
+	}
+	#site-nav #contactlink a:link:hover, #site-nav #contactlink a:visited:hover {
+		background-image: url(/_assets/img/contact_on.gif);
+	}	
+
+
+#content {
+	background-color: white;
+	margin-bottom: 24px;
+	}
+	#content table {
+		padding-bottom: 2px;
+		border-bottom: 2px solid #798169;
+		}
+		#content table caption {
+			background: none;
+			text-align: center;
+			margin: .7em auto;
+		}
+		#content table th {
+			background: none;
+			border: 1px solid #798169;
+			border-width: 0 1px 1px 0px;
+			border-left: 1px solid white;
+			font-family: Georgia, "Times New Roman", Times, serif;
+		}
+		#content table td {
+			background: none;
+			border: 1px solid #798169;
+			border-width: 0 1px 1px 0px;
+			border-left: 1px solid white;
+		}	
+		#content tr.diff td{
+			background-color: #cbc1be;
+		}	
+		#content tr.over td {
+			background-color: #fbc057;
+		}		
+		
+		#content form {
+			margin: 0;
+			padding: 0;
+		}
+
+	
+	#content form fieldset div {
+	clear: both;
+  padding-top: 10px;
+	}
+	
+	#content label {
+	 float: left;
+  width: 100px;
+  text-align: right;
+	}	
+	
+	#content label#fmmessage {
+		float: none;
+		width: 400px;
+		text-align: left;
+	}
+	
+	#content input[type="text"] {
+	float: right;
+  width: 335px;
+  text-align: left;
+	}
+	
+	#content select {
+	float: right;
+  width: 335px;
+  text-align: left;
+  margin-top: -2px;
+	}
+	
+	
+	#content textarea {
+		height: 54px;
+		width: 443px;
+	}
+	#content input[type="submit"] {
+		margin-left: 150px;
+	}
+	#content h1, #content h2, #content h3 {
+		font-family: Georgia, "Times New Roman", Times, serif;
+	}
+	#content h2 {
+		color: #79473e;
+		margin: 24px 0 .3em 0;
+		padding: 0;
+		line-height: 1;
+	}
+	#content h3 {
+		color: #79473e;
+		margin: 24px 0 .3em 0;
+		padding: 0;
+		line-height: 1;
+	}
+
+
+#site-info {
+	background-image: url(/_assets/img/divider.gif);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	text-align: center;
+	padding-bottom: 50px;
+	}
+	#site-info p {
+		padding-top: 24px;
+		font-family: Georgia, "Times New Roman", Times, serif;
+	}
+
+
+/* -------------------------------------------------------------- 
+  
+   fancy-type.css
+   * Lots of pretty advanced classes for manipulating text.
+   
+   See the Readme file in this folder for additional instructions.
+
+-------------------------------------------------------------- */
+
+/* Indentation instead of line shifts for sibling paragraphs. */
+   p + p { text-indent:2em; margin-top:-1.5em; }
+   form p + p  { text-indent: 0; } /* Don't want this in forms. */
+   
+
+/* For great looking type, use this code instead of asdf: 
+   <span class="alt">asdf</span>  
+   Best used on prepositions and ampersands. */
+  
+.alt { 
+  color: #666; 
+  font-family: "Warnock Pro", "Goudy Old Style","Palatino","Book Antiqua", Georgia, serif; 
+  font-style: italic;
+  font-weight: normal;
+}
+
+
+/* For great looking quote marks in titles, replace "asdf" with:
+   <span class="dquo">&#8220;</span>asdf&#8221;
+   (That is, when the title starts with a quote mark). 
+   (You may have to change this value depending on your font size). */  
+   
+.dquo { margin-left: -.5em; } 
+
+
+/* Reduced size type with incremental leading
+   (http://www.markboulton.co.uk/journal/comments/incremental_leading/)
+
+   This could be used for side notes. For smaller type, you don't necessarily want to 
+   follow the 1.5x vertical rhythm -- the line-height is too much. 
+   
+   Using this class, it reduces your font size and line-height so that for 
+   every four lines of normal sized type, there is five lines of the sidenote. eg:
+
+   New type size in em's:
+     10px (wanted side note size) / 12px (existing base size) = 0.8333 (new type size in ems)
+
+   New line-height value:
+     12px x 1.5 = 18px (old line-height)
+     18px x 4 = 72px 
+     72px / 5 = 14.4px (new line height)
+     14.4px / 10px = 1.44 (new line height in em's) */
+
+p.incr, .incr p {
+	font-size: 10px;
+	line-height: 1.44em;  
+	margin-bottom: 1.5em;
+}
+
+
+/* Surround uppercase words and abbreviations with this class.
+   Based on work by Jørgen Arnor Gårdsø Lom [http://twistedintellect.com/] */
+   
+.caps { 
+  font-variant: small-caps; 
+  letter-spacing: 1px; 
+  text-transform: lowercase; 
+  font-size:1.2em;
+  line-height:1%;
+  font-weight:bold;
+  padding:0 2px;
+}
